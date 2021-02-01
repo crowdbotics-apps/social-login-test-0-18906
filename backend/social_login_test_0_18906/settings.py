@@ -70,6 +70,10 @@ THIRD_PARTY_APPS = [
     'fcm_django',
     # end fcm_django push notifications
 
+    # Social login
+    'allauth.socialaccount.providers.facebook',
+    #end social login
+
 ]
 INSTALLED_APPS += LOCAL_APPS + THIRD_PARTY_APPS
 
