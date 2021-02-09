@@ -5,11 +5,10 @@ from allauth.socialaccount.providers.google.views import GoogleOAuth2Adapter
 from allauth.socialaccount.providers.oauth2.client import OAuth2Client
 
 
-class FacebookConnect(SocialConnectView):
+class FacebookConnect(SocialLoginView):
     permission_classes = (AllowAny,)
     adapter_class = FacebookOAuth2Adapter
 
-class GoogleConnect(SocialConnectView):
+class GoogleConnect(SocialLoginView):
     permission_classes = (AllowAny,)
     adapter_class = GoogleOAuth2Adapter
-    client_class = OAuth2Client
