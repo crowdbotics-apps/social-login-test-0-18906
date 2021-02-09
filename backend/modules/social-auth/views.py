@@ -12,3 +12,4 @@ class FacebookConnect(SocialLoginView):
 class GoogleConnect(SocialLoginView):
     permission_classes = (AllowAny,)
     adapter_class = GoogleOAuth2Adapter
+    client_class = OAuth2Client
