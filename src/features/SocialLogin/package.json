@@ -1,0 +1,14 @@
+{
+  "name": "@modules/sociallogin",
+  "version": "1.0.0",
+  "description": "A simple login and signup screen with email and password.",
+  "private": true,
+  "main": "index.js",
+  "x-dependencies": {},
+  "author": "Crowdbotics",
+  "license": "ISC",
+  "dependencies": {
+    "@react-native-community/google-signin": "^5.0.0",
+    "react-native-fbsdk": "^3.0.0"
+  }
+}
